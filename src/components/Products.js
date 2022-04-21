@@ -1,14 +1,27 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import SHOP_DATA from "./ShopData.js";
 function Products() {
   return (
-    <div className="Structure_container">
+    <div className='Structure_container'>
       <div>
         <Navbar />
       </div>
-      <div className="Structure_body">Products</div>
-      <div className="Footer">
+      <div className='Structure_body'>
+        <div className='collection-item'>
+          {SHOP_DATA.map((item) => (
+            <div className='collection-container'>
+              <img src={item.imageUrl} className='image' />
+              <div className='collection-footer'>
+                <div>{item.name}</div>
+                <div>{item.price}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className='Footer'>
         <Footer />
       </div>
     </div>

@@ -56,6 +56,38 @@ body {
 
 /* Structure CSS Ends*/
 
+/* Products CSS starts */
+.collection-item {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.collection-container {
+  display: flex;
+  flex-direction: column;
+}
+.collection-item img {
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+}
+.collection-footer {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.collection-footer .name {
+  width: 90%;
+  margin-bottom: 15px;
+}
+.collection-footer .price {
+  width: 10%;
+}
+/* Products CSS ends */
+
 /* Footer CSS starts*/
 .Footer {
   display: flex;
