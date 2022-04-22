@@ -15,7 +15,7 @@ function Products() {
               <img src={item.imageUrl} className='image' />
               <div className='collection-footer'>
                 <div>{item.name}</div>
-                <div>{item.price}</div>
+                <div className='price'>{item.price}</div>
               </div>
             </div>
           ))}
