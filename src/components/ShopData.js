@@ -1,51 +1,59 @@
 const SHOP_DATA = [
   {
     id: 1,
-    name: "Adidas NMD",
-    imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-    price: 220,
+    name: "Monda Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621089/depositphotos_4947647-stock-photo-restaurant_tduvrt.webp",
+    price: 22000,
   },
   {
     id: 2,
-    name: "Adidas Yeezy",
-    imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-    price: 280,
+    name: "Yeezy Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621089/image_uc3qao.jpg",
+    price: 28000,
   },
   {
     id: 3,
-    name: "Black Converse",
-    imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-    price: 110,
+    name: "Converse Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621091/20190619-Shook21_r7kxad.jpg",
+    price: 11000,
   },
   {
     id: 4,
-    name: "Nike White AirForce",
-    imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-    price: 160,
+    name: "Nike Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621092/pexels-chan-walrus-941861_d3l9yr.jpg",
+    price: 16000,
   },
   {
     id: 5,
-    name: "Nike Red High Tops",
-    imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-    price: 160,
+    name: "Tops Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621094/1483652513-lebernardin-daniel-krieger_pkdqqh.jpg",
+    price: 16000,
   },
   {
     id: 6,
-    name: "Nike Brown High Tops",
-    imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-    price: 160,
+    name: "Brown Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621097/Tallest_Restaurants_in_the_World_7_h9vbiv.jpg",
+    price: 16000,
   },
   {
     id: 7,
-    name: "Air Jordan Limited",
-    imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-    price: 190,
+    name: "Jordan Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621097/200120161356-cnn-worlds-best-new-restaurants---madera---simon-brown-photography-1-1_doilvn.jpg",
+    price: 19000,
   },
   {
     id: 8,
-    name: "Timberlands",
-    imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-    price: 200,
+    name: "Timberlands Restuarant",
+    imageUrl:
+      "https://res.cloudinary.com/djp9oacoi/image/upload/v1650621102/Alain-Ducasse-scaled_m2ztlv.jpg",
+    price: 20000,
   },
 ];
 export default SHOP_DATA;
