@@ -7,7 +7,7 @@ function About() {
       <div>
         <Navbar />
       </div>
-      <div className="Structure_body"></div>
+      <div className="Structure_body">This is where u write ur About code</div>
       <div className="Footer">
         <Footer />
       </div>
