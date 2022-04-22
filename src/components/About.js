@@ -7,7 +7,7 @@ function About() {
       <div>
         <Navbar />
       </div>
-      <div className="Structure_body">About</div>
+      <div className="Structure_body"></div>
       <div className="Footer">
         <Footer />
       </div>
