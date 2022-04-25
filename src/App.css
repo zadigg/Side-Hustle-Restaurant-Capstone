@@ -71,10 +71,10 @@ body {
 /* Products CSS starts */
 .collection-item {
   display: flex;
+  align-items: center;
   padding: 2rem;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: start;
 }
 .collection-container {
   display: flex;
