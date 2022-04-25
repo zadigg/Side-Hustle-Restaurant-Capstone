@@ -9,7 +9,7 @@ function About() {
       <div>
         <Navbar />
       </div>
-      <div className="Structure_body">
+      <div className="Structure_body task">
         <div className="aboutimg"> 
           <img className="img1" src={chairs} alt="" />    
           <img className="img2" src={food} alt=""/>
