@@ -260,3 +260,123 @@ input[type="submit"]:hover {
 }
 
 /* Contact CSS Ends */
+
+/*About CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400&display=swap');
+
+
+
+.aboutimg{
+ display: flex;
+ font-family: 'Epilogue', sans-serif;
+ 
+}
+.img1{
+    height: 300px;
+    width: 50vw;
+}
+.img2{
+  height: 300px;
+  width: 50vw;
+}
+.Thebody{
+  padding: 80px;
+}
+.Thebody h1{
+  display: flex;
+  font-family: 'Epilogue', sans-serif;
+  color: white;
+  background-color: red;
+  width: 150px;
+  text-align: center;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+.word{
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Epilogue', sans-serif;
+}
+.word1{
+  padding-right: 10px;
+  text-align: left;
+  font-size: small;
+ 
+}
+.word2{
+  padding-left: 10px;
+  text-align: left;
+  font-size: small;
+}
+.word2 p{
+  padding: 5px 0;
+
+}
+
+.word1 p{
+  padding: 5px 0;
+
+}
+@media(max-width:720px){
+  .word{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .word1{
+    padding-right: 0px;
+    text-align: center;
+    font-size: small;
+   
+  }
+  .word2{
+    padding-left: 0px;
+    text-align: center;
+    font-size: small;
+  }
+  .word2 p{
+    padding: 5px 0;
+  
+  }
+  
+  .word1 p{
+    padding: 5px 0;
+  
+  }
+  .aboutimg{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Epilogue', sans-serif;
+    width: 100vw;
+    
+    
+   }
+   .img1{
+    height: 300px;
+    width: 100vw;
+}
+.img2{
+  border-top: 1px solid orange;
+  height: 300px;
+  width: 100vw;
+}
+  .Thebody h1{
+    color: white;
+    background-color: red;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+
+
