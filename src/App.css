@@ -6,7 +6,7 @@ body {
 }
 /* Navigation CSS Starts */
 .Navbar_container {
-  background-color: rgb(107, 114, 128);
+  background-color: rgb(241, 242, 246);
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
@@ -19,6 +19,7 @@ body {
   margin-left: 1.25rem;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 
 .Navbar_innerbody {
@@ -31,8 +32,19 @@ body {
 
 .Navbar_innerbody > div {
   margin-left: 1.25rem;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+
+  transition: 0.3s;
 }
 
+.Navbar_innerbody > div:hover {
+  background-color: #3e8e41;
+  color: white;
+}
 .Navbar_body > * {
   color: black;
   text-decoration: none;
@@ -94,37 +106,47 @@ body {
 /* Products CSS ends */
 
 /* Home CSS starts*/
-.header-slide{
+.header-slide {
   text-align: center;
   margin: 0 auto;
   background-color: aquamarine;
 }
 
-.header-text{
+.header-text {
   position: absolute;
   top: 30%;
   left: 4%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
+  background-color: rgb(138, 150, 113);
+  opacity: 0.6;
+  padding: 10px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 350px;
+  height: 250px;
+  font-weight: 100;
+  color: rgb(20, 6, 6);
 }
 
-.header-text h1{
+.header-text h1 {
   font-size: 62px;
   margin: -5px;
   font-weight: 400;
 }
 
-.header-text h2{
+.header-text h2 {
   font-size: 62px;
   margin: 0;
 }
 
-.header-text p{
+.header-text p {
   font-size: 22px;
   font-weight: 500;
 }
 
-.header-text button{
+.header-text button {
   padding: 10px 30px;
   border-color: 1px solid white;
   font-size: 16px;
@@ -132,52 +154,52 @@ body {
   margin-top: 4%;
 }
 
-.header-image{
+.header-image {
   max-width: 100%;
   position: relative;
   background-position: center;
   background-size: cover;
 }
 
-.men-product{
+.men-product {
   display: flex;
   padding: 0 30px;
   margin: 50px 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   column-gap: 30px;
 }
 
-.women{
+.women {
   margin-top: 130px;
 }
-.men-product img{
+.men-product img {
   width: 500px;
   height: 425px;
 }
 
-.product-col{
-    width: 100%;
-    justify-content: center;
+.product-col {
+  width: 100%;
+  justify-content: center;
 }
 
-.info-product{
+.info-product {
   text-align: center;
 }
 
-.info-product h4{
+.info-product h4 {
   font-size: 28px;
   font-weight: 600;
   margin: 0;
 }
 
-.info-product p{
+.info-product p {
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 30px;
   color: rgb(105, 105, 105);
-
 }
-.home-product{
+.home-product {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -190,7 +212,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  background-color: rgb(107, 114, 128);
+  background-color: rgb(190, 200, 219);
 }
 /* Footer CSS Ends*/
 
@@ -199,17 +221,17 @@ body {
 .contactbackground {
   background-image: url(../public/contact.jpg);
   background-size: cover;
-  height: 90%;
+  height: 100%;
   padding-top: 80px;
   color: white;
 }
 .container {
   border-radius: 5px;
   background-color: rgb(5, 2, 2);
-  margin: 120px;
+  margin: 10%;
   margin-top: 0px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px;
   opacity: 0.9;
 }
@@ -262,33 +284,31 @@ input[type="submit"]:hover {
 /* Contact CSS Ends */
 
 /*About CSS*/
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400&display=swap");
 
-.task{
+.task {
   width: 100vw;
   overflow-x: hidden;
-
 }
 
-.aboutimg{
- display: flex;
- font-family: 'Epilogue', sans-serif;
- 
+.aboutimg {
+  display: flex;
+  font-family: "Epilogue", sans-serif;
 }
-.img1{
-    height: 300px;
-    width: 50vw;
-}
-.img2{
+.img1 {
   height: 300px;
   width: 50vw;
 }
-.Thebody{
+.img2 {
+  height: 300px;
+  width: 50vw;
+}
+.Thebody {
   padding: 80px;
 }
-.Thebody h1{
+.Thebody h1 {
   display: flex;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   color: white;
   background-color: red;
   width: 150px;
@@ -296,77 +316,74 @@ input[type="submit"]:hover {
   padding: 15px 20px;
   margin-bottom: 30px;
 }
-.word{
+.word {
   color: grey;
   display: flex;
   justify-content: space-between;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
-.word1{
+.word1 {
   padding-right: 10px;
   text-align: left;
   font-size: small;
- 
 }
-.word2{
+.word2 {
   padding-left: 10px;
   text-align: left;
   font-size: small;
 }
-.word2 p{
+.word2 p {
   padding: 5px 0;
-
 }
 
-.word1 p{
+.word1 p {
   padding: 5px 0;
-
 }
-@media(max-width:720px){
-  .word{
+@media (max-width: 720px) {
+  .word {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
   }
-  .word1{
+  .word1 {
     padding-right: 0px;
     text-align: center;
     font-size: small;
-   
   }
-  .word2{
+  .word2 {
     padding-left: 0px;
     text-align: center;
     font-size: small;
   }
-  .word2 p{
+  .word2 p {
     padding: 5px 0;
-  
   }
-  
-  .word1 p{
+
+  .word1 p {
     padding: 5px 0;
-  
   }
-  .aboutimg{
+  .aboutimg {
     display: flex;
     flex-direction: column;
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
     width: 100vw;
-    
-    
-   }
-   .img1{
+  }
+
+  .aboutimg > img {
+    padding: 20%;
+  }
+  .img1 {
     height: 300px;
     width: 100vw;
-}
-.img2{
-  border-top: 1px solid orange;
-  height: 300px;
-  width: 100vw;
-}
-  .Thebody h1{
+    object-fit: inherit;
+  }
+  .img2 {
+    border-top: 1px solid orange;
+    height: 300px;
+    width: 100vw;
+  }
+  .Thebody h1 {
     color: white;
     background-color: red;
     width: auto;
@@ -379,8 +396,4 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
   }
-  
 }
-
-
-

@@ -5,9 +5,11 @@ function Navbar() {
   return (
     <div className="Navbar_container">
       <div className="Navbar_body">
-        <Link to={"/"}>
-          <div>Home</div>
-        </Link>
+        <div>
+          <Link to={"/"}>
+            <div>Home</div>
+          </Link>
+        </div>
         <div className="Navbar_innerbody">
           <div>
             <Link to={"/products"}>Product</Link>
