@@ -247,6 +247,7 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
+
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -269,7 +270,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #04aa6d;
+  background-color: green;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -278,7 +279,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: lightgreen;
 }
 
 /* Contact CSS Ends */
@@ -288,7 +289,7 @@ input[type="submit"]:hover {
 
 .task {
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .aboutimg {
@@ -310,7 +311,7 @@ input[type="submit"]:hover {
   display: flex;
   font-family: "Epilogue", sans-serif;
   color: white;
-  background-color: red;
+  background-color: green;
   width: 150px;
   text-align: center;
   padding: 15px 20px;
@@ -397,3 +398,116 @@ input[type="submit"]:hover {
     align-items: center;
   }
 }
+
+.footerMain {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+  height: 220px;
+  padding-right: 20px;
+}
+.footerMain * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: flex;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  /* min-height: 15em; */
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu {
+  float: left;
+  margin-top: 10px;
+}
+
+.footer-menu a {
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover {
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+/*  */
