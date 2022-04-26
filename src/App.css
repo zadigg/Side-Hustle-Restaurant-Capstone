@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400&display=swap");
+
 body {
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
 }
+.policy-box{
+  font-family: "Epilogue", sans-serif;
+}
+.p-container{
+  font-family:"Epilogue", sans-serif ;
+}
+
 /* Navigation CSS Starts */
 .Navbar_container {
   background-color: rgb(241, 242, 246);
@@ -43,14 +52,17 @@ body {
 
 .Navbar_innerbody > div:hover {
   background-color: #3e8e41;
+  padding: 5px 20px;
+  border-radius: 8px;
   color: white;
+  
 }
 .Navbar_body > * {
-  color: black;
-  text-decoration: none;
+  color: white;
+  font-family:"Epilogue", sans-serif;
 }
 .Navbar_innerbody > div > * {
-  color: black;
+  
   text-decoration: none;
 }
 /* Navigation CSS Ends */
@@ -59,6 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Epilogue", sans-serif;
 }
 .Structure_body {
   flex-grow: 1;

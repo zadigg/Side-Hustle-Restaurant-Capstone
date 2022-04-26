@@ -12,7 +12,7 @@ function Products() {
         <div className="collection-item">
           {SHOP_DATA.map((item) => (
             <div className="collection-container">
-              <img src={item.imageUrl} className="image" />
+              <img src={item.imageUrl} alt='' className="image" />
               <div className="collection-footer">
                 <div>{item.name}</div>
                 <div className="price">{item.price}</div>

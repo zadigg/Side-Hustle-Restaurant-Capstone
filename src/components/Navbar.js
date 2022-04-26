@@ -13,13 +13,13 @@ function Navbar() {
           </Link>
         </div>
         <div className="Navbar_innerbody">
-          <div>
+          <div className="navb">
             <Link to={"/products"}>Product</Link>
           </div>
-          <div>
+          <div className="navb">
             <Link to={"/contact"}>Contact</Link>
           </div>
-          <div>
+          <div className="navb">
             <Link to={"/about"}>About</Link>
           </div>
         </div>
