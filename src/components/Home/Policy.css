@@ -15,9 +15,11 @@
 
 .policy-box p {
   color: rgb(114, 112, 112);
+  padding-top: 10px;
 }
 
 .policy-img img {
+  padding-bottom: 10px;
   width: 30%;
 }
 
@@ -27,4 +29,28 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+@media (max-width: 720px) {
+  .p-container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+
+  }
+  .p-container .row .col {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  .policy-box{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:400px) {
+  .p-container .row {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
 }

@@ -38,12 +38,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0;
 }
 
 .product-rating {
   display: flex;
   flex-direction: row;
   column-gap: 2px;
+  align-items: center;
 }
 
 .product-rating p {
@@ -51,6 +53,8 @@
   font-size: 30px;
   font-family: 900;
   margin: 0;
+ 
+
 }
 
 .product button {
@@ -62,4 +66,10 @@
   font-size: 15px;
   padding: 8px;
   margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .product-price {
+  text-align: left;
+  }
 }
