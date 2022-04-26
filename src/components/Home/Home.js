@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import background from "../Images/slider.jpg";
+
 import MenImage from "../Images/banner-3-2.jpg";
 import WomenImage from "../Images/banner-2-2.jpg";
 import { Link } from "react-router-dom";
@@ -27,14 +27,7 @@ function Home() {
           <div className="header">
             <div
               className="header-slide"
-              style={{
-                backgroundImage: `url(${background})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                height: "600px",
-                position: "relative",
-              }}
+              
             ></div>
             <div className="header-text">
               <h1> SideHustle</h1>
@@ -49,7 +42,9 @@ function Home() {
 
             {/* Men Product */}
             <div className="men-product">
-              <img src={main1} alt="" />
+              <div className="productImg">  
+                <img className="iiimg" src={main1} alt="" />
+              </div>
               <div className="product-col">
                 <div className="info-product">
                   <h4>BREAKFAST COLLECTION</h4>
@@ -63,8 +58,17 @@ function Home() {
                     rating={4}
                     img={food1}
                   />
-                  <Product id="2" imageUrl={food2} price={280} rating={3} />
-                  <Product id="3" imageUrl={food3} price={110} rating={5} />
+                  <Product 
+                    id="2" 
+                    imageUrl={food2} 
+                    name='lofj'
+                    price={280} 
+                    rating={3} />
+                  <Product 
+                    id="3" 
+                    imageUrl={food3} 
+                    price={110} 
+                    rating={5} />
                 </div>
               </div>
             </div>
@@ -82,17 +86,19 @@ function Home() {
                   <Product id="3" imageUrl={food1} price={110} rating={5} />
                 </div>
               </div>
-              <img src={main2} alt="" />
+              <div className="imagelunch">  
+                <img src={main2} alt="" />
+              </div>
             </div>
 
             {/* Top Product */}
-            <div className="men-product women">
+            <div className="men-product dinner">
               <div className="product-col">
                 <div className="info-product">
                   <h4>DINNERS</h4>
                   <p>Shop All Products</p>
                 </div>
-                <div className="home-product">
+                <div className="home-product dinner-product">
                   <Product id="1" imageUrl={food2} price={220} rating={4} />
                   <Product id="2" imageUrl={food3} price={280} rating={3} />
                   <Product id="3" imageUrl={food4} price={110} rating={5} />
